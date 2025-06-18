@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const connectDB = require('./mongoDb/db');
+const connectDB = require('./mongoDB/db');
 const authRoutes = require('./routes/auth');
 const path = require('path');
 
